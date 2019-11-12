@@ -54,3 +54,54 @@ footer {
 .footer_bq a{
     color: #fff;
 }
+/* 分页 */
+.pagess {
+	clear: both;
+	margin: 20px;
+	overflow: hidden;
+	margin-left: 0px;
+	text-align: center;
+	font-size: 12px
+}
+
+.pagess ul li {
+	display: inline-block;
+	border: 1px solid #ccc;
+	padding: 2px 9px;
+	margin: 0 3px;
+	line-height: 20px;
+	background: #fff;
+	color: #999
+}
+
+.pagess ul li:hover {
+	background: #ccc;
+	color: #fff;
+	border: 1px solid #ccc
+}
+
+.pagess ul li:hover a {
+	color: #fff;
+}
+
+.pagess ul li.thisclass {
+	display: inline-block;
+	border: 1px solid #ccc;
+	padding: 2px 9px;
+	margin: 0 3px;
+	background: #ccc;
+	color: #fff;
+}
+
+.pagess ul li.thisclass a {
+	color: #fff;
+}
+
+.pagess ul li a {
+	display: block;
+	color: #999
+}
+
+.pagess ul li a:hover {
+	color: #fff;
+}

@@ -7,7 +7,7 @@
 }
 
 .content_right {
-    width: 960px;
+    width: 900px;
 }
 
 .intro {
@@ -18,7 +18,8 @@
     padding-left: 15px;
     box-sizing: border-box;
 }
-.l_top_list{
+
+.l_top_list {
     padding: 5px 0;
 }
 
@@ -30,13 +31,22 @@
     background: url(../imgs/dot4.png)5px -41px no-repeat;
 }
 
+.l_top_list ul li .isActive {
+    color: rgb(32, 143, 225);
+}
+
+.l_top_list ul li:hover a {
+    color: rgb(32, 143, 225);
+}
+
 .l_top {
     margin-bottom: 10px;
 }
 
-.left_news{
+.left_news {
     padding: 5px 0;
 }
+
 .left_news ul li a {
     overflow: hidden;
     text-overflow: ellipsis;
@@ -45,6 +55,10 @@
     box-sizing: border-box;
     line-height: 31px;
     display: inline-block;
+}
+
+.left_news ul li:hover a {
+    color: rgb(32, 143, 225);
 }
 
 .left_news ul li a::before {
@@ -58,8 +72,122 @@
     margin-top: -3px;
     margin-left: 7px;
 }
-.contact_list ul LI{
+
+.contact_list ul LI {
     line-height: 35px;
     padding-left: 6px;
     box-sizing: border-box;
+}
+
+.mbx {
+    line-height: 31px;
+    background: rgb(32, 143, 225);
+    height: 31px;
+    color: #fff;
+    padding: 0 15px;
+    margin-bottom: 20px;
+}
+
+.mbx_l {
+    font-size: 16px;
+}
+
+.mbx_r a {
+    color: #fff;
+}
+
+.fuhao {
+    font-family: "黑体";
+}
+
+.r_list {
+    border: 1px solid #e5e5e5;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.r_list .list_wrap ul li {
+    width: 32%;
+    float: left;
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+
+.r_list .list_wrap ul li img {
+    width: 100%;
+    box-sizing: border-box;
+    height: 225px;
+    border: 1px solid #fff;
+}
+
+.r_list .list_wrap ul li img:hover {
+    border: 1px solid #e5e5e5;
+}
+
+.r_list .list_wrap ul li:nth-child(3n) {
+    margin-right: 0;
+}
+
+.r_list .list_wrap ul li p {
+    text-align: center;
+    line-height: 24px;
+    font-size: 14px;
+}
+
+.content {
+    margin: 20px 0;
+}
+
+/* news */
+.list_news ul li{
+    border-bottom: 1px dashed #ccc;
+    overflow: hidden;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.list_news ul li:first-child{
+    padding-top: 10px;
+}
+.left_img {
+    width: 200px;
+}
+
+.left_img img {
+    width: 100%;
+}
+
+.right_con {
+    width: 658px;
+}
+
+.right_info {
+    line-height: 31px;
+    font-size: 16px;
+
+}
+
+.right_info a {
+    color: #000;
+}
+.right_info a:hover{
+    color: rgb(32, 143, 225);
+}
+
+.right_info span {
+    font-size: 12px;
+}
+.right_con .news_ms{
+    font-size: 14px;
+    line-height: 24px;
+}
+/* about */
+.about_us p{
+    font-size: 14px;
+    line-height: 26px;
+    text-indent: 2em;
+    margin-bottom: 20px;
+}
+.about_us img{
+    max-width: 100%;
+    min-width: auto;
 }
